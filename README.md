@@ -1,27 +1,37 @@
-# Swiggy
+# Swiggy-like Food Discovery Platform
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.9.
+This is a simplified front-end clone of Swiggy, created with Angular, designed to simulate a food discovery platform. It features a homepage displaying popular restaurants and cuisines, a favorites list, cart functionality, and responsive design. The project is built with static data and Angular services to simulate dynamic interactions.
 
-## Development server
+## Project Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The application allows users to:
+- View featured restaurants and popular cuisine categories on the homepage.
+- Search for food items by name.
+- Add menu items to a favorites list.
+- Simulate a cart system for menu items.
 
-## Code scaffolding
+## Key Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Homepage**: Displays featured restaurants, cuisine categories, and a search bar.
+- **Favorites Page**: Allows users to save their favorite food items, using Angular services and localStorage.
+- **Cart Simulation**: Adds menu items to a cart, displays total cost, and updates in real time.
+- **Static Data Management**: Uses Angular services to manage restaurant data, menu items, and user reviews.
+- **Responsive Design**: Ensures compatibility with both desktop and mobile screens.
 
-## Build
+## Project Structure
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Components**: Reusable UI components such as restaurant cards, menu items, and user reviews.
+- **Services**: Angular services handle favorites, cart data, and static data.
+- **Routing**: Navigation between pages (home, restaurant details, favorites, and cart) with Angular Router.
 
-## Running unit tests
+## Tech Stack
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Angular**: Front-end framework.
+- **Tailwind CSS**: For styling and responsive design.
 
-## Running end-to-end tests
+## Getting Started
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-repo/food-discovery-app.git
+   cd food-discovery-app
